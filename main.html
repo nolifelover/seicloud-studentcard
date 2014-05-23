@@ -16,8 +16,10 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
+
   <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
+    <!-- Nav bar -->
+  <div class="navbar navbar-inverse navbar-fixed-top">
     <div class="navbar-inner">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">SEICloud-Studentcard</a>
@@ -33,6 +35,7 @@
   <br/>
   <br/>
 
+  <!-- Tab bar -->
   <div class="container-fluid">
     <div class="row-fluid">
       <div class="span12">
@@ -50,16 +53,39 @@
 
   <!-- Tab Content -->
   <div class="tab-content">
-        <div id="sectionA" class="tab-pane fade in active">
-            <h3>Section A</h3>
-            <p>Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui. Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth.</p>
+    <!-- Section A - Student -->
+    <div id="sectionA" class="tab-pane fade in active">
+      <blockquote><h3><span class="glyphicon glyphicon-th-large"></span> สแกนบัตรนักเรียน</h3></blockquote>
+    </div>
+    <!-- Section B - Search -->
+    <div id="sectionB" class="tab-pane fade">
+      <blockquote><h3><span class="glyphicon glyphicon-search"></span> ค้นหานักเรียน</h3></blockquote>
+      <div class="col-md-12 col-md-offset-1">
+        <div class="row">
+          <div class="col-md-10">
+            <div class="panel panel-default">
+              <!-- Default panel contents -->
+              <div class="panel-heading">
+                <h4>ค้นหาข้อมูลนักเรียน</h4>
+              </div>
+              <div class="panel-body">
+                <label class="form-label"> &nbsp &nbsp ข้อมูลนักเรียน</label>
+                <span class="help">(รหัสนักเรียน ชื่อ หรือ นามสกุล)</span>
+                <div class="controls ">
+                  <div class="col-md-11">
+                    <input type="text" name="text" class="form-control" value="" id="text">
+                  </div>
+                  <button type="submit" class="btn btn-primary">ค้นหา</button>
+                </div>
+              </div>
+          </div> <!-- End Default panel contents -->
         </div>
-        <div id="sectionB" class="tab-pane fade">
-            <h3>Section B</h3>
-            <p>Vestibulum nec erat eu nulla rhoncus fringilla ut non neque. Vivamus nibh urna, ornare id gravida ut, mollis a magna. Aliquam porttitor condimentum nisi, eu viverra ipsum porta ut. Nam hendrerit bibendum turpis, sed molestie mi fermentum id. Aenean volutpat velit sem. Sed consequat ante in rutrum convallis. Nunc facilisis leo at faucibus adipiscing.</p>
-        </div>
-  </div>
+      </div>
+    </div> 
+  </div> <!-- End Section B -->
+</div> <!-- End Tab Content -->
 
+  <!-- Modal -->
     <div id="myModal" class="modal">
       <div class="modal-dialog">
         <div class="modal-content">
@@ -75,7 +101,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
-
+    <!-- Script-->
     <script>
       $('#myModal').modal()  
     </script>
