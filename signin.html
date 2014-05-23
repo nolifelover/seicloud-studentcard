@@ -54,34 +54,6 @@
 </div>
 
   <script scr="js/bootstrap.min.js"></script>
-<script>
-    function displayModal(message, color){
-    $("#base-modal").find(".modal-body p").text(message); 
-    $("#base-modal").modal('show');
-    if(color){
-        $("#base-modal").find(".modal-content").css({backgroundColor: color});
-      }
-    }
-  var gui = require('nw.gui');
-  var win = gui.Window.get(); 
-  
-  win.maximize();
-  win.show();
-
-  if (screenfull.enabled) {
-    screenfull.request();
-  }
-
-    $(document).ready(function(){
-    displayModal("กรุณารอซักครูระบบกำลังทำงาน","#f74c18");
-    setTimeout(function(){
-      //gui.Shell.openItem('index.html');
-      window.location = "index.html";
-    }, 2000);
-  });
-</script>
-
-
 <script src="js/jquery-2.1.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
     <!-- Bootstrap core JavaScript
