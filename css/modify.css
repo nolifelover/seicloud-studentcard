@@ -11,7 +11,7 @@
 
 
 body{
-  background-color: #F4F5F5;
+  background-color:  white;
   font-family: RSU-regular-th, sans-serif;
 }
 
@@ -183,6 +183,7 @@ img.student-image{
 }
 
 .modal-body p{
+  font-family: RSU-regular-th, sans-serif;
   text-align: center;
   color:white;
   font-size: 2em;
@@ -257,7 +258,9 @@ body.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom
     width: 60%;
     
   }
+
   .modal-body p{
+    font-family: RSU-regular-th, sans-serif;
     text-align: center;
     font-size: 1.8em;
     line-height: normal;
