@@ -13,6 +13,7 @@
 body{
   background-color:  white;
   font-family: RSU-regular-th, sans-serif;
+    font-size: 18px;
 }
 
 /*  NAV BAR */
@@ -20,12 +21,18 @@ body{
 .navbar-default { 
   border-radius: 0;
   background-color: #393939;
+  font-size: 50px;
+}
+.navbar-tab { 
+  border-radius: 0;
+  background-color: #393939;
 
 }
 
+
 .navbar-default .navbar-text{ 
-  color:#ecf0f1;
-  font-size: 1.5em;
+  color: #FFFFFF;
+  font-size: 50px;
 }
 
 
