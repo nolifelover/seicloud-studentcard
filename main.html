@@ -58,15 +58,6 @@
     <!-- Section A - Student -->
     <div id="sectionA" class="tab-pane fade in active" style = "padding-left:30px">
       <h3><span class="glyphicon glyphicon-th-large"></span>นักเรียน</h3><br>
-        <div id="base-modal" class="modal in" aria-hidden="false" style="display: block;">
-          <div class="modal-dialog modal-dialog-center">
-            <div class="modal-content" style="background-color: rgb(247, 61, 64);">
-             <div class="modal-body">
-              <center><h3><font color="white">สแกนบัตร</font></h3></center>
-              </div>    
-            </div>
-          </div>  
-        </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
@@ -105,15 +96,24 @@
     </div> <!-- End Section B -->
   </div> <!-- End Tab Content -->
 
+  <div id="myModal" class="modal in" aria-hidden="false" style="display: block;">
+    <div class="modal-dialog modal-dialog-center">
+      <div class="modal-content" style="background-color: rgb(91, 192, 222);">
+       <div class="modal-body">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <center><h3><font color="white">สแกนบัตร</font></h3></center>
+       </div>    
+      </div>
+    </div>  
+  </div>
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <!-- Script-->
-    <!--
     <script>
       $('#myModal').modal()  
     </script>
-    -->
   </body>
 </html>
