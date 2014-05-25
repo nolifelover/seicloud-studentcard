@@ -28,7 +28,7 @@ body{
 }
 
 .modal-content{
-  background-color: #5bc0de;
+  background-color: #428bca;
   /*background-color: #138ef9;*/
   border: 0px;
   
@@ -44,11 +44,10 @@ body{
 }
 
 .modal-backdrop {
-  background-color: white;
+  background-color: black;
 }
 .modal-backdrop.in {
-  opacity: 0.45;
-  filter: alpha(opacity=55);
+  opacity: 0.2;
 }
 
 .modal.fade {
